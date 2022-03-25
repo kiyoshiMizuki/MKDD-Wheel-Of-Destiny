@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "trackText";
+    src: url("font.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #012353;
+}
+
+#wrapper {
+  height: 625px;
+  display: flex;
+  justify-content: center;
+  background-color: #00FF00;
+  position: relative;
+  overflow: hidden;
+}
+
+#wheelOfDestiny {
+  top: 25px;
+  height: 600px;
+  position: absolute;
+}
+
+#images { display: none; }
+
+#controls {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  color: white;
+}
+
+button {
+  width: 210px;
+  height: 70px;
+  font-size: 36px;
+  color: white;
+  font-family: trackText;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0 1px 2px black;
+}
+
+#trackOn {
+  font: 64px trackText;
+  color: white;
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  width: 90%;
+  letter-spacing: -4px;
+  text-shadow: 0 5px 5px black;
+}
+
+#arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+#wheel_inside {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 240px;
+  width: 170px;
+}
