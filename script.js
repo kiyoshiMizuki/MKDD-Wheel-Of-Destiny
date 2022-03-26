@@ -6,7 +6,7 @@ const tracks = [
   {color:"#f5ac18", label:"ddd", name:"Dry Dry Desert"},
   {color:"#63cf4c", label:"mb",  name:"Mushroom Bridge"},
   {color:"#c61010", label:"mac", name:"Mario Circuit"},
-  {color:"#f7ae20", label:"dc",  name:"Daisy Cruiser"},
+  {color:"#e06721", label:"dc",  name:"Daisy Cruiser"},
   {color:"#5f1ca6", label:"ws",  name:"Waluigi Stadium"},
   {color:"#a8e1f7", label:"sl",  name:"Sherbet Land"},
   {color:"#342572", label:"muc", name:"Mushroom City"},
